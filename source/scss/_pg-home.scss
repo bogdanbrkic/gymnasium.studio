@@ -1,0 +1,47 @@
+/* SCSS  */
+html{
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  // position: relative;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #14151B url("../../assets/img/bck-bg-gymnasium-studio.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+a {
+  color: rgb(59, 59, 59);
+}
+p {
+  padding-bottom: 4%;
+}
+
+.logo-img {
+  height: 12%;
+}
+
+.bt {
+  font-size: 24px;
+
+    @include breakpoint(mobile){
+      font-size: 18px;
+    }
+}
+
+.content {
+  position: absolute;
+  bottom: 0px;
+  background-color: rgba(200, 200, 200, 0.25);
+  padding: 5% 30%;
+
+  @include breakpoint(mobile){
+    padding: 2% 10%;
+  }
+}
