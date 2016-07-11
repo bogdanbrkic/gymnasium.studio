@@ -39,7 +39,7 @@ define('DB_COLLATE', '');
 
 
 /** No FTP usage for pluggins ..  */
-define('FS_METHOD', 'direct');
+//define('FS_METHOD', 'direct');
 
 /**#@+
  * Authentication Unique Keys and Salts.
